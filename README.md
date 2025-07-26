@@ -18,13 +18,13 @@ mim install mmengine
 ## Quick Start
 1. **Download the pretrained model files**
 
-   Download the pretrained model files and place them into the `experiments` directory.
+   Download the pretrained model files and place them into the `pretrain_models` directory.
 
-   - [Download convnextv2_large_22k_384_ema.pt](https://dl.fbaipublicfiles.com/convnext/convnextv2/im22k/convnextv2_large_22k_384_ema.pt) and place it in the `pretrain_models` directory:
+   - Download [convnextv2_large_22k_384_ema.pt](https://dl.fbaipublicfiles.com/convnext/convnextv2/im22k/convnextv2_large_22k_384_ema.pt). Place it as: `pretrain_models/convnextv2_large_22k_384_ema.pt`
 
-   - Download [Tiny model](https://drive.google.com/file/d/11OonnMGKSEewILHlAYnx5ALGfsPvB_wB/view?usp=drive_link). Place it as: `experiments/colorsurge_tiny.pth`
+   - Download [Tiny model](https://drive.google.com/file/d/11OonnMGKSEewILHlAYnx5ALGfsPvB_wB/view?usp=drive_link). Place it as: `pretrain_models/colorsurge_tiny.pth`
    
-   - Download [Large model](https://drive.google.com/file/d/1EOeNgMrizWrwzfEp_jDAi5URULDLJLaQ/view?usp=drive_link). Place it as: `experiments/colorsurge_large.pth`
+   - Download [Large model](https://drive.google.com/file/d/1EOeNgMrizWrwzfEp_jDAi5URULDLJLaQ/view?usp=drive_link). Place it as: `pretrain_models/colorsurge_large.pth`
 
 2. **Run the pipeline**
 

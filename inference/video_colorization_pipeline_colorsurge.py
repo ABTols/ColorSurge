@@ -78,7 +78,7 @@ class VideoColorizationPipeline(object):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--model_path', type=str, default='./models/net_g_60000.pth')
+    parser.add_argument('--model_path', type=str, default='./pretrain_models/colorsurge_tiny.pth')
     parser.add_argument('--input_video', type=str, default='./inputs/raw_segment_14_gray.mp4', help='input test image folder or video path')
     parser.add_argument('--output_video', type=str, default='./results/color_video', help='output folder or video path')
     parser.add_argument('--input_size', type=int, default=[256,256], help='input size for model')
